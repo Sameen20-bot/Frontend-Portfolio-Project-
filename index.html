@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container" id="nav">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 ">
+      <a href="/"
+        class="d-flex align-items-center mx-5 mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="Images/clipart2836444-removebg-preview.png" alt="s logo" width="40" height="32">
+        <span class="fs-4">Simple header</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link ink">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link ink">Services</a></li>
+        <li class="nav-item"><a href="#" class="nav-link ink">Contact Us</a></li>
+      </ul>
+    </header>
+  </div>
+  <div id="space-container">
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+
+  </div>
+
+  <div class="container my-5 gradient-background">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3  custom-no-border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Hi, I am professional Web Developer and UX/UI Designer
+        </h1>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3 my-5">
+          <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Subscribe</button>
+          <button type="button" class="btn btn-outline-dark btn-lg px-4">Contact</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <!-- <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+    <h1 class="display-5 fw-bold text-body-emphasis ">About Me</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+        popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
+        prebuilt components, and powerful JavaScript plugins.
+        Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end
+        open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components,
+        and powerful JavaScript plugins.
+      </p>
+      <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+      </div> -->
+    </div>
+  </div>
+
+
+  <h1>Services</h1>
+  <div class="flip">
+    <div class="front"
+      style="background-image: url(https://www.creativeitinstitute.com/images/course/course_1663052056.jpg)">
+      <!-- <h1 class="text-shadow">WebDevelopment</hi> -->
+    </div>
+    <div class="back">
+      <h2>WebDevelopment</h2>
+      <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+    </div>
+  </div>
+  <div class="flip">
+    <div class="front"
+      style="background-image: url(https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/07/30182024/UX-UI-Design.jpg)">
+      <!-- <h1 class="text-shadow">LAKE</hi> -->
+    </div>
+    <div class="back">
+      <h2>UI Designer</h2>
+      <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+    </div>
+  </div>
+  <div class="flip">
+    <div class="front"
+      style="background-image: url(https://www.acquisition-international.com/wp-content/uploads/2021/09/UI-UX-Design.jpg)">
+      <!-- <h1 class="text-shadow">OCEAN</hi> -->
+    </div>
+    <div class="back">
+      <h2>UX Designer</h2>
+      <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+    </div>
+  </div>
+
+  <section id="contact">
+
+    <h1 class="section-header">Contact</h1>
+
+    <div class="contact-wrapper">
+
+      <!-- Left contact page -->
+
+      <form id="contact-form" class="form-horizontal" role="form">
+
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+          </div>
+        </div>
+
+        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+
+        <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+          <div class="alt-send-button">
+            <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+          </div>
+
+        </button>
+
+      </form>
+
+      <!-- Left contact page -->
+
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City,
+                State</span></i></li>
+
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                  href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#"
+                  title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+
+        </ul>
+
+        <hr>
+        <!-- <ul class="social-media-list"> -->
+        <!-- <li><a href="#" target="_blank" class="contact-icon">
+              <i class="fa-brands fa-github"></i>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+              <i class="fa fa-codepen" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+              <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+              <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>        -->
+        <!-- </ul> -->
+
+        <div class="container icons">
+          <i class="fa fa-apple" id="apple"></i>
+          <i class="fa fa-twitter" id="twitter"></i>
+          <i class="fa fa-github-square github" id="github"></i>
+          <i class="fa fa-facebook-square" id="facebook"></i>
+        </div>
+        <hr>
+
+        <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- footer -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Portfolio Project Sameen</span>
+      </div>
+
+    </footer>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
